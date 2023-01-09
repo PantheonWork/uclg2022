@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://www.uclg.org/sites/default/files/uclglogo-en.png",
+    "file": "",
     "link": "",
     "text": "Sergio"
   },
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 2,5,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 10
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize": 15,
+      "minEdgeSize": 0.1,
+      "minNodeSize": 0.1,
+      "maxNodeSize": 10
     },
     "mouseProperties": {
       "maxRatio": 20,
