@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://www.uclg.org/sites/default/files/uclglogo-en.png",
+    "link": "",
+    "text": "Sergio"
+  },
+  "text": {
+    "more": "Mapa hecho con los datos de toda la conversación en Twitter de la red UCLG durante un año. \nEs una visualización de datos que muestra cómo las personas interactúan en la red social a través de menciones, hashtags y respuestas. \nEl grafo consiste en nodos, que representan a las cuentas de Twitter, y enlaces, que representan las interacciones entre ellas. \nLos nodos pueden ser de diferentes tamaños y colores, dependiendo de su importancia o actividad en la red. \nCuanto mas grandes sean los nodos mayor es su grado de entrada (atención que reciben en la conversación global)\nLos enlaces pueden ser de diferentes grosores y colores, dependiendo de la frecuencia o intensidad de la interacción. \nEl grafo permite ver patrones y tendencias en la conversación y analizar cómo se propagan las ideas y temas en la red. \nAdemás, se pueden aplicar diferentes filtros y herramientas de análisis para obtener información más detallada y precisa.\nDispone de un buscador para dibujar tu propia red dentro de la conversación global,\n",
+    "intro": " Conversación de la red UCLG durante 2022,\t",
+    "title": "UCLG2022"
+  },
+  "legend": {
+    "edgeLabel": "Conversaciones",
+    "colorLabel": "Familias",
+    "nodeLabel": "Cuentas"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "urlUserImage"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
